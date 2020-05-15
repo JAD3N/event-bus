@@ -4,7 +4,6 @@ version = "0.1.0"
 authors = ["Jaden Buchan <me@jaden.bio>"]
 edition = "2018"
 license = "MIT"
-license-file = "LICENSE.md"
 repository = "https://github.com/jad3n/event-bus"
 documentation = "https://docs.rs/event-bus/"
 description = """
