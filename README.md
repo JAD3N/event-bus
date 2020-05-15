@@ -13,4 +13,4 @@ An event system written in Rust written with thread-safety in mind.
 [crates-badge]: https://img.shields.io/crates/v/event-bus.svg
 [crates-url]: https://crates.io/crates/event-bus
 [mit-badge]: https://img.shields.io/badge/license-MIT-blue.svg
-[mit-url]: LICENSE
+[mit-url]: LICENSE.md
