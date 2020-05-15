@@ -138,7 +138,6 @@ pub fn subscribe_event<T: Event, H: Fn(&mut T) + Send + Sync + 'static>(bus: &st
             .downcast_mut::<EventHandlers<T>>()
             .unwrap();
 
-            // et pos = match vec.binary_search_by(|probe| probe.0.cmp(&priority)) { Ok(p) => p, Err(p) => p };
         let pos = match handlers.0.binary_search_by(|probe| probe.0.cmp(&priority)) {
             Ok(pos) => pos,
             Err(pos) => pos,
